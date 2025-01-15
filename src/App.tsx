@@ -8,7 +8,7 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/orders">
       <Toaster position="top-center" />
       <Routes>
         <Route path="/" element={<Layout />}>
